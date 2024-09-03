@@ -1,0 +1,36 @@
+body {
+  color: white;
+}
+.heading {
+  width: 80%;
+  font-size: 22px;
+}
+#camera {
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+
+  margin: 0;
+  margin-left: 0;
+  margin-left: -546px;
+}
+.name_of_objects,
+#result_object_name,
+#result_object_accuracy {
+  color: rgb(241, 137, 155);
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.emotions {
+  display: flex;
+  justify-content: space-evenly;
+}
+#canvas {
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+}
+.windows {
+  display: flex;
+}
